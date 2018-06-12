@@ -27,13 +27,16 @@ Fine-tuning of AlexNet, VGG16 and ResNet18: Fine-tuning is aimed to adapt the ex
 
 Feature Extraction +SVM on AlexNet and VGG: We will use the base network as a feature extractor. This means that we simply run the images through the pre-trained base network and take outputs from layer(s) as a feature representation of the image. These features are then used for classification using SVM. All our models are implemented in PyTorch. All experiments were implemented in Amazon Web Services using a machine with 4vCPUs, p2xlarge instance and 60GB storage. 
 
-**Quantitative Results: **
+**Quantitative Results:**
 
 The performance of the model was evaluated based on the top-1 classification accuracy (the fraction of paintings whose artists are identified correctly), we compare our networks against each other as well as against [1], and the results are given below: 
 
 **Qualitative Results:**
 
 Saliency maps allow us to visualize which pixels in an image contribute most to the predicted score for that image. We examined saliency maps of a few paintings and saw that in most but not all, the important pixels were spread all over the image and not focused around objects or people in them. Thus, evidently the network does not focus on any single area of the image to perform classification
+Inline-style: 
+![alt text](https://github.com/sreenithy/Style-Classification-using-Transfer-Learning/blob/master/misc/misc1.png "Saliency Map")
+
 
 **Conclusions:**
 
