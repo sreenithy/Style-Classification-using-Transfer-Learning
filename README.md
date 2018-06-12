@@ -49,7 +49,6 @@ Saliency maps allow us to visualize which pixels in an image contribute most to 
  <p align="center">
     <img src="https://github.com/sreenithy/Style-Classification-using-Transfer-Learning/blob/master/misc/misc1.png?raw=true"/>
 </p>
-![alt text](https://github.com/sreenithy/Style-Classification-using-Transfer-Learning/blob/master/misc/misc1.png "Saliency Map")
 
 
 **Conclusions:**
