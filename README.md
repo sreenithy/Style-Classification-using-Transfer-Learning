@@ -35,17 +35,11 @@ The performance of the model was evaluated based on the top-1 classification acc
 
 |MODEL      |Train Accuracy           | Test Accuracy   |
 | ------------- |:-------------:| -----:|
-
 Baseline SVM[1] |(Not reported) |0.58 |
-
 Alexnet-Feature Extraction |0.78 |0.60 |
-
 VGG16 -Feature Extraction |0.79 |0.64 |
-
 Alexnet-Finetune |0.87 |0.70 |
-
 VGG16-Finetune| 0.91 |0.71 |
-
 **Res-Net |**0.93 |**0.74 |
 
 
