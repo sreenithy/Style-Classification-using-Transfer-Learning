@@ -30,6 +30,7 @@ Feature Extraction +SVM on AlexNet and VGG: We will use the base network as a fe
 **Quantitative Results:**
 
 The performance of the model was evaluated based on the top-1 classification accuracy (the fraction of paintings whose artists are identified correctly), we compare our networks against each other as well as against [1], and the results are given below: 
+![alt text](https://github.com/sreenithy/Style-Classification-using-Transfer-Learning/blob/master/misc/graph1.png "Accuracy vs Epoch")
 
 **Qualitative Results:**
 
