@@ -40,13 +40,15 @@ Alexnet-Feature Extraction |0.78 |0.60 |
 VGG16 -Feature Extraction |0.79 |0.64 |
 Alexnet-Finetune |0.87 |0.70 |
 VGG16-Finetune| 0.91 |0.71 |
-**Res-Net |**0.93 |**0.74 |
+**Res-Net** |**0.93** |**0.74** |
 
 
 **Qualitative Results:**
 
 Saliency maps allow us to visualize which pixels in an image contribute most to the predicted score for that image. We examined saliency maps of a few paintings and saw that in most but not all, the important pixels were spread all over the image and not focused around objects or people in them. Thus, evidently the network does not focus on any single area of the image to perform classification
- 
+ <p align="center">
+    <img src="https://github.com/sreenithy/Style-Classification-using-Transfer-Learning/blob/master/misc/misc1.png?raw=true"/>
+</p>
 ![alt text](https://github.com/sreenithy/Style-Classification-using-Transfer-Learning/blob/master/misc/misc1.png "Saliency Map")
 
 
