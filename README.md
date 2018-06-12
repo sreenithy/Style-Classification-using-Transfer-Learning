@@ -6,12 +6,12 @@ Artist identification is traditionally performed by art historians and curators 
 
 **Objectives:**   
 
-Train neural networks using transfer learning to obtain better artist identification performance compared to traditional SVM classification [1] 
+1. Train neural networks using transfer learning to obtain better artist identification performance compared to traditional SVM classification [1] 
 
-Explore and visualize the learned feature representation for identifying artists 
+2. Explore and visualize the learned feature representation for identifying artists 
 
 
-**Related Work: ** 
+**Related Work:** 
 
  Li et al. developed a method of automatically extracting brushstrokes by combining edge detection and clustering-based segmentation [1]. Jou et.al explored the use of k-nearest neighbours and hierarchical clustering for artist identification [3]. However there has not been notable exploration using CNNs for artist identification. 
 
@@ -19,7 +19,7 @@ Explore and visualize the learned feature representation for identifying artists
 
 For this work we use a subset of the dataset compiled by Kaggle that is based on the WikiArt dataset for a balanced pool of artists and styles. Since, art comes in a variety of shapes and sizes we perform pre-processing before passing the image to the CNN. We reprocess the images to be zero mean and unit standard deviation before training. Then we take a 224x224 crop of each input image and randomly flip the input image horizontally. Our hypothesis is that artist style is present everywhere in an image and not limited to specific areas, so crops of paintings should still contain enough information for a CNN to determine style.                         
 
-**Methods: **
+**Methods:**
 
 We develop and train five different CNN architectures using transfer learning for artist identification.  In this project, we will consider two types of transfer learning: a feature-extraction based method and a fine-tuning-based method. We will be using networks that have been pre-trained on the ImageNet dataset and adapt them for our datasets. 
 
