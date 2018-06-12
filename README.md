@@ -1,6 +1,6 @@
 ## Style-Classification-using-Transfer-Learning
 
-#Overview:  
+*Overview:*  
 
 Artist identification is traditionally performed by art historians and curators who have expertise with different artists and styles of art. This is a complex and interesting problem for computers because identifying an artist does not just require object or face detection; artists can paint a wide variety of objects and scenes. Additionally, many artists from the same time will have similar styles, and some artists have painted in multiple styles and changed their style over time. Previous work has attempted to identify artists by explicitly defining their differentiating characteristics as features. Instead of hand-crafting features, we use transfer learning where a model trained on one set of data is employed and adapted to our dataset of choice.  
 
