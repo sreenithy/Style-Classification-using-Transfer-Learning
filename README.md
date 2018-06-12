@@ -34,7 +34,7 @@ The performance of the model was evaluated based on the top-1 classification acc
 **Qualitative Results:**
 
 Saliency maps allow us to visualize which pixels in an image contribute most to the predicted score for that image. We examined saliency maps of a few paintings and saw that in most but not all, the important pixels were spread all over the image and not focused around objects or people in them. Thus, evidently the network does not focus on any single area of the image to perform classification
-Inline-style: 
+ 
 ![alt text](https://github.com/sreenithy/Style-Classification-using-Transfer-Learning/blob/master/misc/misc1.png "Saliency Map")
 
 
