@@ -62,7 +62,7 @@ def plot_confusion_matrix(pred_class, actual_class,option,
 
 
 print('Project 1:Transfer Learning')
-print('Feature Extraction of the following models ')
+print('Feature Extraction of the following models for Animals dataset')
 print('1.AlexNet')
 print('2.VGG16')
 option=input('Enter model of choice :')
@@ -82,8 +82,8 @@ if option==1:
     model.classifier = new_classifier
     # model = model.features
 
-    data_dir_train = '../art/train'
-    data_dir_test = '../art/test'
+    data_dir_train = '../animals/train'
+    data_dir_test = '../animals/test'
     batch_size = 5
 
     train_loader = torch.utils.data.DataLoader(datasets.ImageFolder(data_dir_train, preprocessor),
@@ -159,8 +159,8 @@ elif option==2:
     new_classifier = nn.Sequential(*list(model.classifier.children())[:-1])
     model.classifier = new_classifier
 
-    data_dir_train = '../art/train'
-    data_dir_test = '../art/test'
+    data_dir_train = '../animals/train'
+    data_dir_test = '../animals/test'
     batch_size = 5
 
     train_loader = torch.utils.data.DataLoader(datasets.ImageFolder(data_dir_train, preprocessor),
@@ -219,7 +219,6 @@ elif option==2:
     plt.figure()
     plot_confusion_matrix(y_pred, test_target_big_array, option, title='Normalized confusion matrix')
     plt.show()
-
 
 
 
