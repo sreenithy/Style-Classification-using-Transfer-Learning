@@ -271,4 +271,3 @@ elif option==2:
      plot_confusion_matrix(p, t, option, title='Normalized confusion matrix')
      plt.show()
 
-
